@@ -1,1 +1,30 @@
+.user__card{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 2px 2px 5px grey;
+    gap: 15px;
+}
+.user__car-header{
+    text-align: center;
+    padding: 20px;
+}
 
+.user__car-header h1{
+    text-shadow: 1px 1px 3px grey;
+}
+
+.btn__open-form{
+    width: 30%;
+    max-width: 300px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    background-color: rgb(22, 110, 218);
+    color: white;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    box-shadow: 2px 2px 5px grey;
+}

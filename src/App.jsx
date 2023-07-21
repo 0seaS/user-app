@@ -31,8 +31,10 @@ function App() {
 
   return (
     <div>
-      <h1>User</h1>
-      <button onClick={handleOpenForm} className='formuser__button'>Open form </button>
+      <div className='user__car-header'>
+        <h1>User</h1>
+        <button onClick={handleOpenForm} className='btn__open-form'>Open form </button>
+      </div>
       <FormUser
         createNewUser={createNewUser}
         updateInfo={updateInfo}
@@ -41,7 +43,7 @@ function App() {
         closeForm={closeForm}
         setCloseForm={setCloseForm}
       />
-      <div>
+      <div className='user__card'>
         {
           users?.map(user => (
             <UserCard

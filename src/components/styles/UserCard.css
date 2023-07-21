@@ -1,0 +1,40 @@
+.card{
+    min-width: 250px;
+    box-shadow: 2px 2px 5px gray;
+    margin: 10px;
+    padding: 15px;
+}
+
+.card__ul li{
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card__label{
+    color: gray;
+}
+
+hr{
+    border: 1px solid rgba(247, 83, 83, .7);
+}
+
+.card__footer{
+    text-align: right;
+}
+
+.btn{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 0.3em;
+    color: white;
+}
+
+.btn__delete{
+    background: rgb(247, 83, 83);
+}
+
+.btn__update{
+    background: rgb(4, 192, 29);
+}
