@@ -19,12 +19,14 @@
 
 .formuser{
     width: 100%;
+    border-radius: 1em;
     max-width: 300px;
     color: white;
     text-shadow: 1px 1px 3px black;
     padding: 2em 1.5em 2.5em;
-    background: linear-gradient(180deg, rgba(14,2,221,1) 0%, rgba(0,255,235,1) 100%);
-    position: relative;}
+    background: rgb(151, 147, 147);
+    position: relative;
+}
 
 .formuser__title{
     text-align: center;

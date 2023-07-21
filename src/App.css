@@ -17,6 +17,7 @@
 
 .btn__open-form{
     width: 30%;
+    min-width: 150px;
     max-width: 300px;
     font-size: 1rem;
     font-weight: 400;
